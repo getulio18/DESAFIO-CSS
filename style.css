@@ -1,0 +1,101 @@
+
+body{
+    
+    margin: 0;
+    background-color: #555;
+}
+#tela{ 
+    background-color: #ece3e3;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    
+}
+#cabecalho,footer{
+    background-color: rgb(228, 90, 90);
+    display: flex;
+    width: 1000px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+   
+   
+}
+#menu{
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 50px;
+    
+    
+}
+ ul li{
+    list-style-type: none;
+    margin-inline-start: 40px;
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+#logo{
+    width: 50px;
+    border-radius: 25px;
+}
+main{
+    display: inline-block;
+    
+   
+    
+}
+img{
+    width: 400px;
+    margin: 50px;
+}
+footer img{
+    width: 30px;
+    margin-inline: 20px;
+}
+footer img:hover{
+    background-color: blue;
+}
+footer{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+section{
+    margin: 50px;
+    text-align: center;
+   
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 18px;
+}
+OL{
+    text-align:start;
+
+}
+ol li a {
+   color: blue;
+}
+
+a:hover{
+    color: blue;
+}
+section img:hover{
+    border: 2px solid blue;
+    
+
+}
